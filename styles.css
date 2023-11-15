@@ -11,8 +11,31 @@ p:last-child{
 	color: red;
 }
 
-ul:first-child{
+li:first-child{
 	width: 50%;
 	padding: 10px;
-	font-size: 22px;
+	background: white;
+}
+li:nth-child(2){
+	background: slategray;
+	width: 50%;
+	padding: 10px;
+}
+
+li:nth-child(3){
+	background: pink;
+	width: 50%;
+	padding: 10px;
+}
+
+li:nth-child(4){
+	background: slategray;
+	width: 50%;
+	padding: 10px;
+}
+
+li:last-child{
+	background: white;
+	width: 50%;
+	padding: 10px;
 }
