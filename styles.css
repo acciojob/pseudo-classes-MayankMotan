@@ -1,45 +1,41 @@
 :root{
 	background-color: rgb(135, 206, 235);
 }
-.para{
-	background-color: black;
-	color: white;
-}
-div:first-child{
+p:first-child{
 	color: white;
 	background-color: black;
 }
 
-div:last-child{
+p:last-child{
 	color: red;
 }
 
-ul li:first-child{
+li:first-child{
 	width: 50%;
 	padding: 10px;
-	background-color: white;
+	background: white;
 	font-size: 22px;
 }
-ul li:nth-child(2){
-	background-color: slategray;
+li:nth-child(2){
+	background: slategray;
 	width: 50%;
 	padding: 10px;
 }
 
-ul li:nth-child(3){
-	background-color: pink;
+li:nth-child(3){
+	background: pink;
 	width: 50%;
 	padding: 10px;
 }
 
-ul li:nth-child(4){
-	background-color: slategray;
+li:nth-child(4){
+	background: slategray;
 	width: 50%;
 	padding: 10px;
 }
 
-ul li:last-child{
-	background-color: white;
+li:last-child{
+	background: white;
 	width: 50%;
 	padding: 10px;
 	font-size: 22px;
